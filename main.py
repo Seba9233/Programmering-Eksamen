@@ -6,6 +6,9 @@ from tkinter import messagebox, simpledialog
 #todo def LevelSystem
 #If AmountOfPoints>MaxPoint
 #Level up
+#else
+#pass
+
 #Show AmountOfPoints
 
 #todo class menu
@@ -17,8 +20,25 @@ from tkinter import messagebox, simpledialog
 # 2: ChooseTopic
 # 3: Quit
 
-
 #todo StartQuiz
+#pull questions and answers from csv under correct topic
+
+#todo stil spørgsmål
+#print question, answer & wronganswers
+
+#inputs
+#if input = answers
+#add 1 point
+#if AmountOfPoints>MaxPoint
+#go to class menu
+
+#else
+#remove 1 life
+#if no lifes left
+#go to class menu
+
+#else
+#pass
 
 
 #todo ChooseTopic
@@ -27,7 +47,8 @@ from tkinter import messagebox, simpledialog
 #todo Quit
 # Quit("Program ended. Cya, biatch!")
 # mangler eventuelt tkinter commands
-#hjkghjvivy
+
+
 #add 1 point
 
 
