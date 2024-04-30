@@ -1,5 +1,37 @@
+#import
+#todo eventuelt import csv fil
 import tkinter as tk
 from tkinter import messagebox, simpledialog
+
+#todo def LevelSystem
+#If AmountOfPoints>MaxPoint
+#Level up
+#Show AmountOfPoints
+
+#todo class menu
+# def StartQuiz
+# def ChooseTopic
+# def Quit
+# input, if user presses: 1, 2 or 3
+# 1: StartQuiz
+# 2: ChooseTopic
+# 3: Quit
+
+
+#todo StartQuiz
+
+
+#todo ChooseTopic
+# have en csv fil med forskellige emner, delt op
+
+#todo Quit
+# Quit("Program ended. Cya, biatch!")
+# mangler eventuelt tkinter commands
+
+#add 1 point
+
+
+
 
 class QuizMenu:
     def __init__(self, root):
