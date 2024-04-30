@@ -27,7 +27,7 @@ from tkinter import messagebox, simpledialog
 #todo Quit
 # Quit("Program ended. Cya, biatch!")
 # mangler eventuelt tkinter commands
-
+#hjkghjvivy
 #add 1 point
 
 
