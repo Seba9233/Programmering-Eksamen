@@ -1,1 +1,1 @@
-Denne projekt omhandler en undervisnings quiz
+Dette projekt omhandler programmerings eksmanen og selve produketet er en undervisnings quiz
