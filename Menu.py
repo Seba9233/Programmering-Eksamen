@@ -2,8 +2,9 @@
 #class menu
 
 #def point
-def menu()
-print("Make menu here")
+#class menu():
+def menu():
+    print("Make menu here")
 
 #def startquiz
 #def vælgemne
