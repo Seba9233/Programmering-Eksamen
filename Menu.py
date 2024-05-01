@@ -1,11 +1,12 @@
-#Indsæt TODOS af Def (Funktioner)
-#class menu
 
 #def point
-#class menu():
-def menu():
-    print("Make menu here")
+class menu:
+#startquiz
+    def __init__(self):
+        input("Make menu here")
 
-#def startquiz
-#def vælgemne
-#def afslut
+#vælg emne
+    #def vælgemne
+
+#afslut
+    #def afslut

@@ -3,8 +3,12 @@ import tkinter as tk
 from tkinter import messagebox, simpledialog
 
 #import
+#import pointChecker
+
 import Menu
 Menu.menu()
+
+
 
 
 #todo def LevelSystem
