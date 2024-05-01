@@ -1,16 +1,20 @@
 #import ???.txt
 import random
+from Emne import tegnet
 
-questions = random.randint(100, 9999)
-questions2 = random.randint(100, 9999)
+##FØRSTE TAL
+number1 = random.randint(100, 9999)
+number2 = random.randint(100, 9999)
 
 def quizzen():
-    print('Hvad er svaret på dette spørgsmål', questions, '+', questions2)
+    print('Hvad er svaret på dette spørgsmål', number1, tegnet.Emne.vælgemne(), number2)
     ans=int(input('Skriv svar her:'))
-    if ans==questions + questions2:
+    if ans==number1 + number2:
         print('yeee')
     else:
         exit('You fucking suck')
+
+
 
     #TODO
     #spørgsmål = parse_csv('???.txt') <--- CSV fil
