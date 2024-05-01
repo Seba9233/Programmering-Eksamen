@@ -2,6 +2,8 @@
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 
+global points
+
 #import
 #import pointChecker
 
