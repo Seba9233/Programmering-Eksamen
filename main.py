@@ -3,6 +3,9 @@
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 
+from Menu import menu
+
+
 #todo def LevelSystem
 #If AmountOfPoints>MaxPoint
 #Level up
