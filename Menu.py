@@ -2,7 +2,7 @@ import Quiz
 import Emne
 
 def firstmenu():
-    førstevalg = input("Tryk 1 for at spille")
+    førstevalg = input("Tryk 1 for at åbne menuen")
     if førstevalg == '1':
         secondmenu()
     else:

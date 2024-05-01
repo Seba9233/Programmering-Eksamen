@@ -3,6 +3,8 @@ import tkinter as tk
 from tkinter import messagebox, simpledialog
 
 global points
+points = 1
+
 
 
 #import
