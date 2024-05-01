@@ -4,11 +4,12 @@ from tkinter import messagebox, simpledialog
 
 global points
 
+
 #import
 #import pointChecker
-
 import Menu
-Menu.menu()
+
+Menu.firstmenu()
 
 
 
