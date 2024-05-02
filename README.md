@@ -1,1 +1,1 @@
-Dette projekt omhandler programmerings eksmanen og selve produketet er en undervisnings quiz
+Dette projekt omhandler programmerings eksamen og selve produketet er en undervisnings quiz
