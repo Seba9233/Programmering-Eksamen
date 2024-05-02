@@ -16,6 +16,7 @@ def secondmenu(tegn):
     valg = input("Tryk 1 for at starte quizzen \n"
                     "Tryk 2 for at vælge et emne \n"
                     "Tryk 3 for at afslutte")
+
 #    if tegn == '+':
  #       Quiz.quizzen()
   #  if tegn == '*':

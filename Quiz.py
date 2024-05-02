@@ -10,12 +10,10 @@ def quizzen():
     print('Hvad er svaret på dette spørgsmål', number1, tegnet.Emne.vælgemne(), number2)
     ans=int(input('Skriv svar her:'))
     if ans==number1 + number2:
-        print('yeee')
+        print('Correct!')
     else:
-        exit('You fucking suck')
+        exit('You suck')
 
-
-
-    #TODO
+    #TODO (måske)
     #spørgsmål = parse_csv('???.txt') <--- CSV fil
-    #randomize spørgsmål (og måske svar)
+    #tilføj multiple choice
