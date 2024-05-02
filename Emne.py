@@ -1,5 +1,3 @@
-from Menu import secondmenu
-
 def vælgemne():
     valgemne = input("Vælg hvilket emne du vil have: \n"
                     "1 for plus\n"
@@ -9,6 +7,7 @@ def vælgemne():
         print('Du vil nu få plus-spørgsmål')
         tegnet = '+'
         secondmenu(tegnet)
+
     elif valgemne == '2':
         print('Du vil nu få gange-spørgsmål')
         tegnet = '*'
