@@ -5,6 +5,9 @@ from tkinter import messagebox, simpledialog
 global points
 points = 1
 
+import LevelSystem
+LevelSystem.Point()
+
 
 
 #import
