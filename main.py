@@ -4,19 +4,16 @@ from tkinter import messagebox, simpledialog
 
 global points
 points = 1
+tegnet = 1
 
 import LevelSystem
 LevelSystem.Point()
-
-
 
 #import
 #import pointChecker
 import Menu
 
-Menu.firstmenu()
-
-
+Menu.menu()
 
 
 #todo def LevelSystem

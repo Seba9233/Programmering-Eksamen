@@ -1,32 +1,40 @@
 import Quiz
-import Emne
-import QuizGange
 
+def chooseOperator():
+    chooseOperatorInput = input("Vælg hvilken type spørgsmål du vil have: \n"
+                    "1 for plus\n"
+                    "2 for gange")
 
-def firstmenu():
-    førstevalg = input("Tryk 1 for at åbne menuen")
-    if førstevalg == '1':
-        secondmenu()
+    if chooseOperatorInput == '1':
+        print('Du vil nu få plus-spørgsmål')
+        Quiz.quizzen(1)
+
+    elif chooseOperatorInput == '2':
+        print('Du vil nu få gange-spørgsmål')
+        Quiz.quizzen(2)
+
     else:
-        print("Wrong input")
-        firstmenu()
+        print('Ugyldigt input, prøv igen')
+        return chooseOperator()
 
-def secondmenu(tegn):
-
-    valg = input("Tryk 1 for at starte quizzen \n"
+def menu():
+    selectedSymbol = None
+    while True:
+        menuselection = input("Tryk 1 for at starte quizzen \n"
                     "Tryk 2 for at vælge et emne \n"
                     "Tryk 3 for at afslutte")
 
-    if tegn == '+':
-        Quiz.quizzen()
-    if tegn == '*':
-        QuizGange.quizzenGange()
+        if menuselection == '1':
+            if selectedSymbol is not None:
+                Quiz.quizzen(selectedSymbol)
+            else:
+                print('Vælg et emne først')
+        elif menuselection == '2':
+            selectedSymbol = chooseOperator()
 
-    if valg == '1':
-        Quiz.quizzen()
-    elif valg == '2':
-        Emne.vælgemne()
-    elif valg == '3':
-        exit("Afsluttet! bozo...")
-    else:
-        secondmenu(tegn)
+        elif menuselection == '3':
+            exit("Afsluttet! bozo...")
+        else:
+            print('Ugyldigt input, prøv igen')
+
+menu()
