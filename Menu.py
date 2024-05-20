@@ -3,7 +3,7 @@ import Quiz
 def chooseOperator():
     chooseOperatorInput = input("Vælg hvilken type spørgsmål du vil have: \n"
                     "1 for plus\n"
-                    "2 for gange")
+                    "2 for gange\n")
 
     if chooseOperatorInput == '1':
         print('Du vil nu få plus-spørgsmål')
@@ -22,19 +22,18 @@ def menu():
     while True:
         menuselection = input("Tryk 1 for at starte quizzen \n"
                     "Tryk 2 for at vælge et emne \n"
-                    "Tryk 3 for at afslutte")
+                    "Tryk 3 for at afslutte \n")
 
         if menuselection == '1':
             if selectedSymbol is not None:
                 Quiz.quizzen(selectedSymbol)
             else:
                 print('Vælg et emne først')
-        elif menuselection == '2':
+        if menuselection == '2':
             selectedSymbol = chooseOperator()
 
         elif menuselection == '3':
             exit("Afsluttet! bozo...")
         else:
             print('Ugyldigt input, prøv igen')
-
 menu()
