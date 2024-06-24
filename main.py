@@ -1,3 +1,6 @@
+##DER ER IK EN SKID HERINDE, BARE TILFÆLDIGE TODOS
+
+
 #todo eventuelt import csv fil
 import tkinter as tk
 from tkinter import messagebox, simpledialog
